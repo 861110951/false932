@@ -1,0 +1,130 @@
+@import "reset.css";
+@import "common.css";
+
+
+/* 顶部 */
+.header {
+    height: 940px;
+    background: url(../img/home/header1.jpg)no-repeat center center / cover;
+}
+
+/* 轮播图 */
+.rotation {
+    position: relative;
+    /* top:0px; */
+    height: 940px;
+    width: 100%;
+    /* z-index:1; */
+    margin: 0 auto;
+}
+
+.plugin {
+    height: 940px;
+    width: 100%;
+}
+
+.rotation .plugin a {
+    display: block;
+}
+
+.rotation .plugin a img {
+    display: block;
+    height: 940px;
+    width: 100%;
+    /* object-fit:fill; */
+}
+
+/* 轮播图end */
+
+
+
+/* 业务内容介绍 */
+.container section:nth-child(odd) {
+    background-color: #21283e;
+    text-align: center;
+}
+
+section .title {
+    color: white;
+    font-size: 38px;
+    text-align: center;
+}
+
+section img {
+    max-width: 100%;
+}
+
+/* 第一部分内容 */
+.container .part1 {
+    color: #fff;
+    background-color: #21283e;
+    height: 1380px;
+    text-align: center;
+    padding: 120px 0 140px 0;
+}
+
+.part1 .title {
+    margin-bottom: 50px;
+}
+
+/* section .title:hover span{
+    display:block;
+    border:1px solid #ccc;
+    width:490px;
+    height:40px;
+    margin:0 auto;
+    box-shadow: inset 3px 3px 14px #ccc,
+                 10px 10px 15px #000;
+} */
+
+
+/* 第二部分内容 */
+.container .part2 {
+    height: 985px;
+    background-color: #1d2437;
+    padding-top: 100px;
+    text-align: center;
+    padding: 120px;
+}
+
+.part2 .title {
+    margin-bottom: 110px;
+}
+
+/* 第三部分内容 */
+.container .part3 {
+    height: 2850px;
+    text-align: center;
+    padding-bottom: 120px;
+}
+
+.part3 .first {
+    padding-top: 230px;
+    padding-bottom: 350px;
+}
+
+.first .title {
+    margin-bottom: 95px;
+}
+
+.part3 .second {
+    padding-bottom: 300px;
+}
+
+.second .title {
+    margin-bottom: 90px;
+}
+
+.third .title:nth-of-type(1) {
+    margin-bottom: 15px;
+}
+
+.third .title:nth-of-type(2) {
+    margin-bottom: 70px;
+}
+
+.third img:nth-of-type(1) {
+    margin-bottom: 160px;
+}
+
+/* 业务内容介绍 end*/

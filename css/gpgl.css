@@ -1,0 +1,100 @@
+@import "common.css";
+
+.main section img {
+    max-width: 100%;
+}
+.main section .title{
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+.content {
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+.main section{
+	padding-bottom: 200px;
+}
+
+.main section:nth-of-type(1) img {
+    margin-right: 120px;
+}
+.main section:nth-of-type(1) .content {
+    text-align: left;
+}
+.main section:nth-of-type(1) .title {
+    color: #2e71ab;
+}
+
+.content .desc {
+    text-align: left;
+    display: inline-block;
+}
+.desc p {
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+
+.main section:nth-of-type(4) .title {
+    margin-bottom: 90px;
+}
+.main section:nth-of-type(5) .title {
+    margin-bottom: 60px;
+}
+
+.main section:nth-of-type(6) .title {
+    margin-top: 70px;
+}
+
+.main section:nth-of-type(7) .title {
+    color: #2e71ab;
+    margin-bottom: 60px;
+}
+
+.main section:nth-of-type(9) img {
+    margin-right: 120px;
+}
+
+.main section:nth-of-type(9) .content {
+    text-align: left;
+}
+
+.main section:nth-of-type(9) .title {
+    color: #2e71ab;
+}
+
+.content p {
+    line-height: 1.5em;
+    margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1200px) {
+	.docker img{
+		margin: 0 !important;
+	}
+	.main section img{
+		max-width: 100% !important;
+	}
+	.content{
+		display: block;
+	}
+	.main section:nth-of-type(1) img{
+		float: left;
+		padding-left: 50px;
+		padding-bottom: 150px;
+	}
+	.main section:nth-of-type(1) .content{
+		padding-top: 100px;
+	}
+	.main section:nth-of-type(9) img{
+		float: left;
+	}
+	.main section:nth-of-type(9) .content{
+		padding: 150px 0;
+		text-align: left;
+	}
+}

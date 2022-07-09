@@ -1,0 +1,25 @@
+@import "common.css";
+
+.main section {
+    padding-top: 80px;
+    padding-bottom: 120px;
+}
+.main section img{
+	max-width: 100%;
+}
+.main section .title{
+	font-size: 32px;
+}
+.main section .desc{
+	margin-top: 24px;
+	margin-bottom: 26px;
+}
+.main section:nth-of-type(1) .title{
+	margin-bottom: 30px;
+}
+.main section:nth-of-type(5) .title{
+	margin-bottom: 70px;
+}
+.btimg{
+	margin-top: 20px;
+}

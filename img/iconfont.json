@@ -1,0 +1,37 @@
+{
+  "id": "3496825",
+  "name": "932",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "3930510",
+      "name": "上箭头",
+      "font_class": "shangjiantou",
+      "unicode": "e61e",
+      "unicode_decimal": 58910
+    },
+    {
+      "icon_id": "338299",
+      "name": "qq",
+      "font_class": "qq",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "724427",
+      "name": "微信",
+      "font_class": "ai-weixin",
+      "unicode": "e62f",
+      "unicode_decimal": 58927
+    },
+    {
+      "icon_id": "1276900",
+      "name": "电话_phone35",
+      "font_class": "dianhuaphone35",
+      "unicode": "e72a",
+      "unicode_decimal": 59178
+    }
+  ]
+}

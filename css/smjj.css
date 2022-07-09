@@ -1,0 +1,100 @@
+@import "common.css";
+
+.main section{
+    padding-top:150px;
+    padding-bottom:250px;
+}
+.content{
+    display: inline-block;
+    vertical-align: top;
+    text-align:center;
+}
+.title1{
+    font-size:32px;
+    margin-bottom:12px;
+}
+.main section img {
+    max-width: 100%;
+}
+.main section img{
+    margin-right:120px;
+}
+.main section:nth-of-type(1) .content{
+    margin-top:120px;
+    margin-left:120px;
+}
+.main section .title {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+.main section:nth-of-type(2) img{
+    margin:0;
+    margin-left:100px;
+}
+.main section:nth-of-type(2) .content{
+    margin-top:80px;
+    margin-right:100px;
+}
+.btn {
+    border-radius: 10px;
+    padding: 10px 15px;
+    background: #3c404b;
+    margin-bottom: 100px;
+}
+
+.main section:nth-of-type(3) img {
+    margin: 0;
+    margin-right: 100px;
+}
+
+.main section:nth-of-type(3) .content {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.main section:nth-of-type(4) img {
+    margin: 0;
+    margin-right: 100px;
+}
+.main section:nth-of-type(4) .content {
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.main-center div.content img {
+    margin: 0;
+}
+
+.main section:nth-of-type(5) .content {
+    margin-top: 100px;
+    margin-left: 100px;
+}
+.main section:nth-of-type(5) .btn {
+    margin-bottom: 10px;
+}
+.main section:nth-of-type(5) .ac {
+    margin-bottom: 12px;
+    color: #96989e;
+}
+.main section:nth-of-type(5) .ac1 {
+    margin-bottom: 50px;
+    color: #96989e;
+}
+
+@media only screen and (max-width: 1100px) {
+	.main section img{
+		margin: 0 !important;
+	}
+}
+@media only screen and (max-width: 1200px) {
+	.main section .content{
+		padding-top: 120px;
+		padding-left: 50px;
+	}
+	.main section:nth-of-type(2) .content{
+		padding-left: 0;
+		padding-right: 50px;
+	}
+	.main section:nth-of-type(6) img{
+		padding-top: 30px;
+	}
+}

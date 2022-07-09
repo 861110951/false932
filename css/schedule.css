@@ -1,0 +1,49 @@
+@import "common.css";
+
+.main section {
+    padding-top:80px;
+    padding-bottom:120px;
+}
+.content{
+    display:inline-block;
+    vertical-align:top;
+    margin-left:140px;
+    margin-top:180px;
+}
+.main section .title{
+    font-size:32px;
+}
+.main section .desc{
+    margin-top:24px;
+    margin-bottom:26px;
+}
+.main section:nth-of-type(1) .content p{
+    line-height:1.8em;
+}
+.main section:nth-of-type(1) img{
+    text-align: left;
+    margin-right:140px;
+
+}
+.main section:nth-of-type(1) .content{
+    text-align: left;
+}
+.main section:nth-of-type(8) .title {
+    margin-bottom: 75px;
+}
+
+@media only screen and (max-width:970px){
+    .content{
+        margin-left:30px;
+        margin-top:50px;
+    }
+    .main section:nth-of-type(1) img{
+        margin:0;
+    }
+}
+@media only screen and (max-width:1200px){
+    .main section:nth-of-type(1) .content{
+        padding-top:120px;
+        padding-left:50px;
+    }
+}
