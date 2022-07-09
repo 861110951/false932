@@ -1,13 +1,13 @@
 // 初始化wow.js
 
 // 引入导航
-$('.shortcut').load('./shortcut/index.html');
+$('.shortcut').load('./false932/shortcut/index.html');
 
 // 引入底部
-$('.footer-main').load('./footer/index.html');
+$('.footer-main').load('./false932/footer/index.html');
 
 // 侧边栏
-$('.aside').load('../aside/index.html');
+$('.aside').load('./false932/aside/index.html');
 
 function Variable(){
     this.scroll = 700,
